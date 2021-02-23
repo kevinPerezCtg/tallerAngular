@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+#nav{
+    background: #4e4e7e;
+}
+
+#valores{
+    padding-top: 340px;
+}
+
+#cantidad{
+    padding-left: 10px;
+}
+
+.libCat, .texth5peq, .texth6peq{
+    display: none;
+}
+
+.texth5, .texth6{
+    color:#0d6efd;
+}
+
+@media screen and (max-width:991px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    #valores{
+        padding-top: 10px;
+    }
+
+    .libTitle, .texth6, .texth5{
+        display: none;
+    }
+
+    .libCat, .texth6peq, .texth5peq{
+        display: block;
+    }
+
+    .texth5, .texth6{
+        color: black;
+    }
+   
+}
+
+@media (min-width: 768px){
+    .col-md-5 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
